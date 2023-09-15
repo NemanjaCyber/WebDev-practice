@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.sveKontejner{
+    border: 1px solid black;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2px;
+}
+
+.nazivKontejner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nazivLab{
+    font-size: x-large;
+}
+
+.formaKontejner{
+    display: flex;
+    flex-direction: column;
+}
+
+.kategorijaKontejner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.selectKategorija{
+    width: -webkit-fill-available;
+    margin-left: 50px;
+}
+
+.filmoviKontejner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.selectFilm{
+    width: -webkit-fill-available;
+    margin-left: 67px;
+}
+
+.ocenaKontejner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ocenaInput{
+    width: -webkit-fill-available;
+    margin-left: 76px;
+}
+
+.oceniBtn{
+    float: right;
+    width: 230px;
+}
+
+
+.prikazKontejner{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+.filmKontejner{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.skalaFilma{
+    display: flex;
+    align-self: center;
+    width: 30px;
+    background-color: aqua;
+}

@@ -1,0 +1,47 @@
+.glavniKontejner{
+    display: flex;
+    flex: 1 1;
+}
+.produkcijaKontejner{
+    border: 1px solid black;
+}
+.nazivKontejner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.formaKontejner{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.kategorijaKontejner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.donjiDeoForme{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.filmoviKontejner{
+    display: flex;
+    justify-content: space-between;
+}
+.prikazKontejner{
+    display: flex;
+}
+.filmPrikaz{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100px;
+}
+.skalaFilma{
+    align-self: center;
+    width: 30px;
+    background-color: aqua;
+}
+.nazivFilma{
+    align-self: center;
+}

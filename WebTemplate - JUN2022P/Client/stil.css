@@ -1,0 +1,29 @@
+.aSlika{
+    height: 100px;
+    width: 200px;
+}
+
+.sveKontejner{
+    display: flex;
+    flex-direction: row;
+}
+
+.formaKontejner{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 300px;
+    height: max-content;
+}
+.prikazKontejner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+}
+
+.automobilKontejner{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: center;
+}

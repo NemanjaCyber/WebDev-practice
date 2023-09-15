@@ -1,0 +1,48 @@
+.ceoTurnir{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.infoKontejner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.donjiDeo{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+
+.turnirLab{
+    font-weight: bold;
+    text-align: center;
+}
+
+.prviIgracKontejner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drugiIgracKontejner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slika{
+    height: 100px;
+    width: 100px;
+}
+
+.prviLab{
+    text-align: center;
+}
+
+.drugiLab{
+    text-align: center;
+}

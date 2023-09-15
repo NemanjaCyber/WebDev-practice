@@ -1,0 +1,46 @@
+.sveKontejner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leviKontejner{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+.nazivLab{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formaKontejner{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: darkgrey;
+    height: 150px;
+}
+.silosiKontejner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.podaciLab{
+    text-align: center;
+}
+.silosKontejner{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 500px;
+    border: 1px solid black;
+    width: 150px;
+}
+.infoKontejner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skalaKontejner{
+    background-color: aqua;
+    border: 1px solid black;
+}

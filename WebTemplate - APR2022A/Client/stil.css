@@ -1,0 +1,106 @@
+.sveK{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.nazivK{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.doleK{
+    display: flex;
+    flex-direction: row;
+}
+
+.nazivL{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.leviDeo{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px solid black;
+    row-gap: 10px;
+}
+
+.velicinaK{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dugmeK{
+    display: flex;
+    justify-content: center;
+}
+
+.brendK{
+    display: flex;
+    flex-direction: row;
+}
+
+.brendSelect{
+    margin-left: 18px;
+    width: 170px;
+}
+.slika{
+    width: 100px;
+    height: 100px;
+}
+
+.desniDeo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.artiklK{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.cenaK {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.kolicinaK {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sifraK{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kupiK{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slika{
+    display: flex;
+    align-self: center;
+}

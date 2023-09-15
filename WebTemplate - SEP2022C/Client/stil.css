@@ -1,0 +1,64 @@
+.sveK{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.nazivK{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.nazivL{
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.doleK{
+    display: flex;
+    flex-direction: row;
+}
+.formaK{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 400px;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+.prikazK{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-start;
+    column-gap: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.podrucjeI, .cvetI, .listI, .stabloI{
+    float: right;
+}
+.pretraziK{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pretraziBtn{
+    width: 90px;
+    height: 20px;
+}
+.slika{
+    width: 100px;
+    height: 100px;
+}
+.biljkaK{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}

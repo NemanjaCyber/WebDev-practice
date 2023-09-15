@@ -1,0 +1,64 @@
+.sveK{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.nazivK{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.nazivL{
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.doleK{
+    display: flex;
+    flex-direction: row;
+}
+.formaK{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 200px;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+.dugmeK{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stoloviK{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.stoK{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.zemicka{
+    width:125px;
+    height: 15px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+.stoKolL{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.stoL{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

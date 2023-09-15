@@ -1,0 +1,44 @@
+.sveK{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 700px;
+    padding: 5px;
+}
+.leviDeo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 400px;
+    border-right: 1px solid black;
+}
+.desniDeo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    column-gap: 20px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.skalaK{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    background-color: rgb(91, 197, 68);
+    border: 1px solid black;
+}
+
+.infoK{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoL{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

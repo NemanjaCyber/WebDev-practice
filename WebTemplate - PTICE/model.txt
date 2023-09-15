@@ -1,0 +1,31 @@
+Ptica:
+ID
+Naziv
+Slika
+List<Osobina> Osobine
+List<Vidjenje> Vidjenja
+
+Podrucje:
+ID
+Naziv
+List<Vidjenje> Vidjenja
+
+Vidjenje:
+ID
+Latitude
+Longitude
+Vreme
+Ptica Ptica
+Podrucje Podrucje
+
+Osobina:
+ID
+Naziv
+Vrednost
+ViseVrednosti
+List<Ptica> Ptica
+List<NepoznataPtica> Nepoznata
+
+NepoznataPtica:
+ID
+List<Osobina> Osobine
